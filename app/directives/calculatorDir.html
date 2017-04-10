@@ -1,0 +1,57 @@
+<h1>Calculator</h1>
+<hr/>
+<div class="main">
+	<div class="result">
+		<textarea ng-model="result" class="result" ></textarea>
+	</div>
+    <div style="width:100%; height: 75%;">
+        <div class="row">
+            <div class="col normal" ng-click="showResult('AC')">AC
+            </div>
+            <div class="col normal" ng-click="showResult('+/-')">+/-
+            </div>
+            <div class="col normal" ng-click="showResult('%')">%
+            </div>
+            <div class="col end-no" ng-click="showResult('÷')">÷
+            </div>
+        </div>
+        <div class="row">
+            <div class="col normal" ng-click="showResult('7')">7
+            </div>
+            <div class="col normal" ng-click="showResult('8')">8
+            </div>
+            <div class="col normal" ng-click="showResult('9')">9
+            </div>
+            <div class="col end-no" ng-click="showResult('×')">×
+            </div>
+        </div>
+        <div class="row">
+            <div class="col normal" ng-click="showResult('4')">4
+            </div>
+            <div class="col normal" ng-click="showResult('5')">5
+            </div>
+            <div class="col normal" ng-click="showResult('6')">6
+            </div>
+            <div class="col end-no" ng-click="showResult('－')">－
+            </div>
+        </div>
+        <div class="row">
+            <div class="col normal" ng-click="showResult('1')">1
+            </div>
+            <div class="col normal" ng-click="showResult('2')">2
+            </div>
+            <div class="col normal" ng-click="showResult('3')">3
+            </div>
+            <div class="col end-no" ng-click="showResult('＋')">＋
+            </div>
+        </div>
+        <div class="row">
+            <div class="col zero" ng-click="showResult('0')">0
+            </div>
+            <div class="col normal" ng-click="showResult('.')">.
+            </div>
+            <div class="col normal" ng-click="showResult('=')">=
+            </div>
+        </div>
+    </div>
+</div>
